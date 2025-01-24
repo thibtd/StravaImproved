@@ -1,19 +1,43 @@
-# 🎈 Blank app template
+# 🏃 Strava Activity Analyzer
 
-A simple Streamlit app template for you to modify!
+Transform your Strava running data into actionable insights with interactive visualizations.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://stravaimproved.streamlit.app/)
+## ✨ Features
 
-### How to run it on your own machine
+- **Analytics Dashboard**
+  - Activity overview (distance, runs, pace)
+  - Heart rate zone analysis
+  - Pace distribution charts
+  - Monthly progression tracking
 
-1. Install the requirements
+- **Interactive Maps**
+  - Activity route visualization
+  - Multi-activity overlay
+  - Start/end markers
+  - Elevation profiles
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+## 🚀 Quick Start
 
-2. Run the app
+1. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+2. Set Strava API credentials in .env:
+You can find those in your Strava account settings.
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+```bash
+STRAVA_CLIENT_ID=your_client_id
+STRAVA_CLIENT_SECRET=your_client_secret
+```
+3. Run the Streamlit app:
+```bash
+streamlit run streamlit_app.py
+```
+## 🔧 Tech Stack 
+- Streamlit (UI)
+- Plotly (Charts)
+- Folium (Maps)
+- Pandas (Data)
+
+## 📝 License  
+This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
